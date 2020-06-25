@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Title Page</title>
+		
+		<style>
+			body {
+				background-color: #E5E4F0;
+			}
+
+			.form {
+				width: 320px;
+				background-color: #FFF;
+				box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+				border-radius: 2px;
+				padding: 30px 20px;
+			}
+			input {
+				display: block;
+				width: 100%;
+				height: 32px;
+				margin-top: 10px;
+				border: 0;
+				border-bottom: 1px solid #eee;
+			}
+			p {
+				font-size: 14px;
+				font-weight: bold;
+				color: #999;
+			}
+			button {
+				margin-top: 20px;
+				width: 100%;
+				border-radius: 2px;
+				border: none;
+				padding: 12px 20px;
+				background-color: mediumslateblue;
+				font-size: 16px;
+				color: #FFF;
+				cursor: pointer;
+				transition: background 0.5s;
+			}
+			button:hover {
+				background: mediumpurple;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<form class="form" action="" method="get">
+			<p>Nome: <input type="text" class="nome" /></p>
+			<p>Sobrenome: <input type="text" class="sobrenome" /></p>
+			<p>Peso: <input type="text" class="peso" /></p>
+			<p>Altura: <input type="text" class="altura" /></p>
+			<button>Enviar</button>
+		</form>
+
+		<div class="result"></div>
+
+	<script src='app.js'></script>
+	</body>
+</html>
